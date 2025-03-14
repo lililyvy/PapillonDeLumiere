@@ -15,8 +15,8 @@ export const useExperienceStore = defineStore('experience', {
               "Utilisation et manipulation d'un GMAO (CARL)",
               "Découverte des différents métiers/missions/fonctions dans un service biomédical"
             ],
-            image: "/src/assets/images/medipole.jpg",
-            pdf: "/rapports/stage_biomedical.pdf" // Ajout du lien vers le rapport
+            image: "https://res.cloudinary.com/dwtatn7tk/image/upload/v1741774000/medipole_wdgpe9.jpg",
+            pdf: "/public/rapports/stage_biomedical.pdf" 
         },
         {
             id: 2,
@@ -29,7 +29,7 @@ export const useExperienceStore = defineStore('experience', {
               "Surveillance et assistance en cas d’urgence",
               "Accueil des familles et gestion des demandes"
             ],
-            image: "/src/assets/images/residence.jpg"
+            image: "https://res.cloudinary.com/dwtatn7tk/image/upload/v1741774007/residence_xtppar.jpg"
         },
         {
             id: 3,
@@ -42,8 +42,8 @@ export const useExperienceStore = defineStore('experience', {
               "Observation des activités de l'unité de consultation de génétique clinique ",
               "Observation des techniques de laboratoire de CBC (Culture biologique Cellulaire)"
             ],
-            image: "/src/assets/images/genetique.png",
-            pdf: "/rapports/stage_genetique.pdf" // Ajout du lien vers le rapport
+            image: "https://res.cloudinary.com/dwtatn7tk/image/upload/v1741773998/genetique_fdwddw.png",
+            pdf: "/public/rapports/stage_genetique.pdf" 
         },
         {
             id: 4,
@@ -56,7 +56,7 @@ export const useExperienceStore = defineStore('experience', {
               "Reformulation des notions difficiles, pédagogie",
               "Préparation aux examens et suivi des progrès"
             ],
-            image: "/src/assets/images/soutien.png"
+            image: "https://res.cloudinary.com/dwtatn7tk/image/upload/v1741774008/soutien_zychwz.png"
         },
         {
             id: 5,
@@ -68,7 +68,7 @@ export const useExperienceStore = defineStore('experience', {
               "Préparation de cours, d'exercices, de sujets blancs et réponses aux questions",
               "Tutrice en: bases en sciences de la vie (biologie cellulaire, biochimie, génétique, Médicament, histologie), physiologie (pour L1 puis L2), Dispositifs médicaux, électricité, électronique, maintenance des dispositifs médicaux et psychologie de la santé et du handicap."
             ],
-            image: "/src/assets/images/association.png"
+            image: "https://res.cloudinary.com/dwtatn7tk/image/upload/v1741773998/association_s9ifuw.png"
         }
       ]
     }),

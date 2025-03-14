@@ -10,7 +10,7 @@ export const useProjectStore = defineStore('projects', {
         description: 'Analyse des raisons du déséquilibre filles/garçons en Licence Sciences pour la Santé.',
         category: 'informatique',
         pdf: '/rapports/data_visualisation.pdf',
-        image: '/src/assets/images/data_viz.png'
+        image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741773998/data_viz_w7bmjx.png'
       },
       {
         id: 2,
@@ -18,7 +18,7 @@ export const useProjectStore = defineStore('projects', {
         description: 'Création d’un site WordPress pour une boulangerie, avec gestion de projet et arborescence.',
         category: 'informatique',
         pdf: '/rapports/le_pave_dor.pdf',
-        image: '/src/assets/images/boulangerie.png'
+        image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741773996/boulangerie_p1nuyj.png'
       },
       {
         id: 3,
@@ -26,25 +26,25 @@ export const useProjectStore = defineStore('projects', {
         description: 'Développement de mon site web personnel en Vue.js et GitHub Pages.',
         category: 'informatique',
         pdf: '',
-        image: '/src/assets/images/portfolio.png'
+        image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741774007/portfolio_qqofga.png'
       },
       
       // Projets d’analyse et innovation
       {
         id: 4,
         title: "Outil d'évaluation pour la Myopathie de Duchenne",
-        description: 'Développement d’un outil interactif pour accompagner les patients.',
+        description: 'Développement d’un outil interactif pour accompagner les patients atteint de la dystrophie de Duchenne.',
         category: 'Projets d’analyse et innovation',
         pdf: '/rapports/myopathie_duchenne.pdf',
-        image: '/src/assets/images/myopathie.png'
+        image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741774001/myopathie_ibqqmz.png'
       },
       {
         id: 5,
         title: 'Article Scientifique en anglais sur l’Immunothérapie',
-        description: 'Rédaction d’un article sur les avancées en immunothérapie et IA.',
+        description: "Rédaction d’un article sur les avancées en immunothérapie et l'IA.",
         category: 'Projets d’analyse et innovation',
         pdf: '/rapports/immunotherapy.pdf',
-        image: '/src/assets/images/immuno.png'
+        image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741773999/immuno_yaq8mk.png'
       },
       {
         id: 6,
@@ -52,7 +52,7 @@ export const useProjectStore = defineStore('projects', {
         description: 'Analyse systémique pour identifier les causes d’un événement indésirable.',
         category: 'Projets d’analyse et innovation',
         pdf: '/rapports/analyse_alarm.pdf',
-        image: '/src/assets/images/alarm.png'
+        image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741773996/alarm_fa9jfu.png'
       },
       {
         id: 7,
@@ -60,15 +60,15 @@ export const useProjectStore = defineStore('projects', {
         description: 'Création d’un serious game pour apprendre à réagir à un choc anaphylactique.',
         category: 'Projets d’analyse et innovation',
         pdf: '/rapports/seance_eetp.pdf',
-        image: '/src/assets/images/eetp.png'
+        image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741773998/eetp_ejwghk.png'
       },
       {
         id: 8,
-        title: 'Plaquette parcours patient pédiatrique',
-        description: 'Conception d’une plaquette expliquant les recommandations de la SFAR et ADARPEF.',
+        title: "Plaquette matérialisation parcours patient pédiatrique avec l'entreprise Dubourdon Production",
+        description: 'Conception d’une plaquette à destination des établissements de santé afin de matérialiser le parcours patient pédiatrique.',
         category: 'Projets d’analyse et innovation',
         pdf: '/rapports/parcours_patient_pediatrique.pdf',
-        image: '/src/assets/images/parcours_patient.png'
+        image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741774001/parcours_patient_ukwign.png'
       },
       
       // Stages
@@ -79,7 +79,7 @@ export const useProjectStore = defineStore('projects', {
         category: 'stages',
         link: '/experiences',
         pdf: '/rapports/stage_genetique.pdf',
-        image: '/src/assets/images/stage_genetique.png'
+        image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741774008/stage_genetique_gnj30w.png'
       },
       {
         id: 10,
@@ -88,7 +88,7 @@ export const useProjectStore = defineStore('projects', {
         category: 'stages',
         link: '/experiences',
         pdf: '/rapports/stage_biomedical.pdf',
-        image: '/src/assets/images/biomedical.png'
+        image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741773997/biomedical_tqbbcp.png'
       }
     ]
   })

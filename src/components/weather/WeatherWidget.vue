@@ -62,7 +62,7 @@ const windSpeed = computed(() => weatherStore.windSpeed);
 const feelsLike = computed(() => weatherStore.feelsLike);
 
 async function loadWeather() {
-  await weatherStore.fetchWeather('Lyon'); // Vous pouvez passer la ville en paramètre
+  await weatherStore.fetchWeather('Lyon'); 
 }
 
 onMounted(() => {

@@ -38,7 +38,6 @@
       <div class="mobile-menu" :class="{ 'active': mobileMenuOpen }">
         <ul>
           <li><router-link to="/" @click="closeMobileMenu">Accueil</router-link></li>
-          <li><router-link to="/about" @click="closeMobileMenu">À propos</router-link></li>
           <li><router-link to="/experience" @click="closeMobileMenu">Expériences</router-link></li>
           <li><router-link to="/education" @click="closeMobileMenu">Formation</router-link></li>
           <li><router-link to="/skills" @click="closeMobileMenu">Compétences</router-link></li>

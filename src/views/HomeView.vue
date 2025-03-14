@@ -10,6 +10,16 @@
           <h1>Olivia Favard</h1>
           <h2>Étudiante en Sciences pour la Santé 🫁</h2>
           <p>Passionnée par la santé et l'innovation biomédicale. </p>
+          
+          <!-- Boutons CV avec liens directs -->
+          <div class="cv-buttons">
+            <a href="/src/assets/cv/cv_francais.pdf" target="_blank" class="btn primary">
+              <span class="btn-icon">📄</span> CV Français
+            </a>
+            <a href="/src/assets/cv/cv_english.pdf" target="_blank" class="btn secondary">
+              <span class="btn-icon">📄</span> CV Anglais
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -59,7 +69,7 @@
 
 <script>
 export default {
-  name: "HomeView",
+  name: "HomeView"
 };
 </script>
 
@@ -100,6 +110,17 @@ export default {
   font-size: 1.8rem;
   font-weight: 300;
   margin-bottom: 10px;
+}
+
+/* Boutons de CV */
+.cv-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.btn-icon {
+  margin-right: 5px;
 }
 
 /* À propos */
@@ -164,7 +185,7 @@ export default {
   background-color: #5d8f88;
 }
 .secondary {
-  background-color: transparent;
+  background-color: white;
   color: #70a9a1;
   border: 1px solid #70a9a1;
 }
@@ -180,6 +201,10 @@ export default {
   }
   .highlights {
     flex-direction: column;
+  }
+  .cv-buttons {
+    flex-direction: column;
+    align-items: center;
   }
 }
 </style>

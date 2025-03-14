@@ -87,10 +87,12 @@
 
     <!-- Nouvelle section Certifications -->
     <div class="certifications">
-      <h2>🏅 Certifications</h2>
+      <h2>🏅 Certifications et engagements </h2>
       <ul>
-        <li>PSC1 (Prévention et Secours Civiques de niveau 1) - 2023</li>
-        <li> <strong> TOEIC </strong> - Niveau B2 -  Score : 930/990 - 10/01/2025 </li>
+        <li>PSC1 (Prévention et Secours Civiques de niveau 1) - 2023 🫀</li>
+        <li> <strong> TOEIC </strong> - Niveau d'anglais B2 -  Score : <strong>930/990 </strong> - 10/01/2025 </li>
+        <li> <strong> Permis de conduire 🚗</strong> - Catégorie B </li>
+        <li> <strong> Engagement étudiant dans l'association Sci'Santé 🖋️ </strong> au Conseil d'administration et Secrétaire adjointe </li>
       </ul>
     </div>
   </div>

@@ -19,7 +19,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
     animation: fadeIn 0.6s ease-in-out;
-    background: none; /* Enlève le fond blanc pour respecter le fond global */
+    background: none; 
   }
   
   /* 🌟 Titre */

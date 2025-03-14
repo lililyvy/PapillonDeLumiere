@@ -8,7 +8,7 @@
           <li> 🕾 +33 7 83 77 58 12</li>
           <li>✉️ olivia.favard@gmail.com</li>
           <li>
-            Linkedin →<a href="https://www.linkedin.com/in/olivia-favard-ab64a0254/" target="_blank">
+            Linkedin →<a href="https://www.linkedin.com/in/olivia-favard/" target="_blank">
               <img src="@/assets/icons/linkedin.svg" alt="LinkedIn" class="linkedin-icon" />
             </a>
           </li>
