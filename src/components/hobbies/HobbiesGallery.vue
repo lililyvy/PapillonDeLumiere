@@ -6,12 +6,20 @@
       class="hobby-section"
       @click="toggleSection(index)"
     >
-      {{ hobby.title }}
+      <h2>{{ hobby.title }}</h2>
+      <p class="hobby-description">{{ hobby.description }}</p>
       <transition name="fade">
         <div v-show="hobby.visible" class="hobby-content">
-          <div v-for="(item, i) in hobby.items" :key='i' class="category">
+          <div v-for="(item, i) in hobby.items" :key="i" class="category">
             <h3>{{ item.category }}</h3>
-            <div class="examples-container">
+
+            <!-- Afficher la carte si elle existe -->
+            <div v-if="item.map" class="destination-map">
+              <iframe :src="item.map" width="100%" height="480" style="border: none; border-radius: 10px;"></iframe>
+            </div>
+
+            <!-- Afficher les exemples si disponibles -->
+            <div v-if="item.examples" class="examples-container">
               <HobbyCard v-for="(example, j) in item.examples" :key="j" :example="example" />
             </div>
           </div>
@@ -20,6 +28,7 @@
     </div>
   </div>
 </template>
+
 
 <script>
 import HobbyCard from './HobbyCard.vue';
@@ -33,6 +42,7 @@ export default {
     hobbies: [
       {
         title: "🎬 Films et séries",
+        description: "Mon père est un cinéphile et a su me transmettre sa passion tout au long des années en me montrant ses films fétiches et en m‘emmenant régulièrement au cinéma.",
         visible: false,
         items: [
           {
@@ -86,6 +96,8 @@ export default {
       {
         title: "📚 Lecture",
         visible: false,
+        description: "Depuis très jeune j’aime me plonger dans de la lecture. Ma mère avait souvent du mal à capter mon attention lorsque j’étais plongée dans un bon livre. Très vite, j'ai eu un abonnement à la médiathèque puis j’ai commencé au fil des anniversaires et des Noëls à me faire une belle bibliothèque de plus de 100 livres. Mon style de lecture à évolué avec les années mais mon amour pour les livres n’a pas bougé !", 
+
         items: [
           {
             category: "BD",
@@ -129,6 +141,7 @@ export default {
       },
       {
         title: "🎵 Musique",
+        description: " La musique rythme ma vie, j’ai toujours une musique qui traine dans ma tête. Je vous met au défi de me battre au BlindTest ! ",
         visible: false,
         items: [
           {
@@ -173,20 +186,12 @@ export default {
       },
       {
         title: "✈️ Voyages",
+        description: "Voyager permet de travailler mes langues, de faire de belles rencontres et en apprendre plus sur les autres cultures. J'aimerai découvrir plein de pays dans ma vie !",
         visible: false,
         items: [
           {
             category: "Destinations",
-            examples: [
-              { img: "japan.jpg", name: "France et ses régions" },
-              { img: "iceland.jpg", name: "Iles Grecques" },
-              { img: "iceland.jpg", name: "Angleterre" },
-              { img: "iceland.jpg", name: "Pays-Bas" },
-              { img: "iceland.jpg", name: "Espagne" },
-              { img: "iceland.jpg", name: "Italie" },
-              { img: "iceland.jpg", name: "Tunisie" },
-              { img: "newyork.jpg", name: "Turquie" }
-            ]
+            map: "https://www.google.com/maps/d/u/0/embed?mid=12l-mf2J83O0tx23jjbwbQgw4kk5CIeg&ehbc=2E312F"
           }
         ]
       }
@@ -203,6 +208,14 @@ export default {
 </script>
 
 <style scoped>
+.hobby-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
 .hobby-section {
   width: 90%;
   margin: 15px auto;
@@ -226,7 +239,7 @@ export default {
   padding: 10px;
   border-radius: 10px;
   margin-top: 5px;
-  max-height: 1500px;
+  max-height: 2000px;
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
@@ -247,4 +260,5 @@ export default {
 .fade-enter, .fade-leave-to {
   opacity: 0;
 }
+
 </style>

@@ -9,14 +9,13 @@
         <div class="hero-right">
           <h1>Olivia Favard</h1>
           <h2>Étudiante en Sciences pour la Santé 🫁</h2>
-          <p>Passionnée par la santé et l'innovation biomédicale. </p>
           
           <!-- Boutons CV avec liens directs -->
           <div class="cv-buttons">
-            <a href="/src/assets/cv/cv_francais.pdf" target="_blank" class="btn primary">
+            <a href="/rapports/cv_of.pdf" target="_blank" class="btn primary">
               <span class="btn-icon">📄</span> CV Français
             </a>
-            <a href="/src/assets/cv/cv_english.pdf" target="_blank" class="btn secondary">
+            <a href="/rapports/cv_of_english.pdf" target="_blank" class="btn secondary">
               <span class="btn-icon">📄</span> CV Anglais
             </a>
           </div>
@@ -29,7 +28,7 @@
       <div class="about-text">
         <h2>À propos de moi 👋</h2>
         <p>J'aime connaître le corps humain, comprendre son fonctionnement et le fonctionnement des technologies de la santé et travailler à trouver des solutions à ses possibles problématiques. </p>
-        <p>C'est pourquoi travailler dans la recherche et dans le biomédical est ce qui m'anime ! 🔬 </p>
+        <p>C'est pourquoi travailler dans la santé, la recherche et dans le biomédical est ce qui m'anime ! 🔬 </p>
       </div>
     </section>
 

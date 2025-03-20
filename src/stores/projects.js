@@ -23,7 +23,7 @@ export const useProjectStore = defineStore('projects', {
       {
         id: 3,
         title: 'Portfolio Personnel',
-        description: 'Développement de mon site web personnel en Vue.js et GitHub Pages.',
+        description: "Développement de mon site web personnel en Vue.js, HTML et CSS et GitHub Pages (celui-ci même où vous êtes à l'instant).",
         category: 'informatique',
         pdf: '',
         image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741774007/portfolio_qqofga.png'
@@ -33,7 +33,7 @@ export const useProjectStore = defineStore('projects', {
       {
         id: 4,
         title: "Outil d'évaluation pour la Myopathie de Duchenne",
-        description: 'Développement d’un outil interactif pour accompagner les patients atteint de la dystrophie de Duchenne.',
+        description: 'Développement d’un outil interactif pour accompagner les patients atteint de la Myopathie de Duchenne.',
         category: 'Projets d’analyse et innovation',
         pdf: '/rapports/myopathie_duchenne.pdf',
         image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741774001/myopathie_ibqqmz.png'
@@ -49,7 +49,7 @@ export const useProjectStore = defineStore('projects', {
       {
         id: 6,
         title: 'Analyse ALARM d’un événement hospitalier',
-        description: 'Analyse systémique pour identifier les causes d’un événement indésirable.',
+        description: 'Analyse systémique pour identifier les causes d’un événement indésirable grâce à la méthode ALARM.',
         category: 'Projets d’analyse et innovation',
         pdf: '/rapports/analyse_alarm.pdf',
         image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741773996/alarm_fa9jfu.png'
@@ -65,7 +65,7 @@ export const useProjectStore = defineStore('projects', {
       {
         id: 8,
         title: "Plaquette matérialisation parcours patient pédiatrique avec l'entreprise Dubourdon Production",
-        description: 'Conception d’une plaquette à destination des établissements de santé afin de matérialiser le parcours patient pédiatrique.',
+        description: "Conception d’une plaquette à destination des établissements de santé afin de respecter les recommandations de la SFAR et de l'ADARPEF quand au parcours chirurgical du patient pédiatrique.",
         category: 'Projets d’analyse et innovation',
         pdf: '/rapports/parcours_patient_pediatrique.pdf',
         image: 'https://res.cloudinary.com/dwtatn7tk/image/upload/v1741774001/parcours_patient_ukwign.png'
@@ -74,8 +74,8 @@ export const useProjectStore = defineStore('projects', {
       // Stages
       {
         id: 9,
-        title: 'Stage en Génétique - HFME Lyon',
-        description: 'Rapport de stage sur l’analyse génétique et les diagnostics.',
+        title: 'Rapport de Stage en Génétique - HFME Lyon',
+        description: "Mon expérience de stage au sein du laboratoire de cytogénétique et en génétique clinique ainsi qu'en Culture Biologique et Cellulaire",
         category: 'stages',
         link: '/experiences',
         pdf: '/rapports/stage_genetique.pdf',
@@ -84,7 +84,7 @@ export const useProjectStore = defineStore('projects', {
       {
         id: 10,
         title: 'Stage Biomédical - Médipôle Lyon-Villeurbanne',
-        description: 'Maintenance de dispositifs médicaux et gestion des équipements.',
+        description: "Mon expérience de stage dans le service biomédical de l'hôpital: Maintenance préventives et curatives de dispositifs médicaux.",
         category: 'stages',
         link: '/experiences',
         pdf: '/rapports/stage_biomedical.pdf',

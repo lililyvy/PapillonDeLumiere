@@ -1,7 +1,8 @@
 <template>
   <div class="example">
     <img :src="example.img" :alt="example.name" />
-    <span>{{ example.name }}</span>
+    <span class="name">{{ example.name }}</span>
+    <p class="description">{{ example.description }}</p>
   </div>
 </template>
 
@@ -25,15 +26,25 @@ export default {
 .example:hover {
   transform: scale(1.05);
 }
-.example span {
-  display: block; /* Toujours affiché */
+.name {
+  display: block;
   font-size: 14px;
   font-weight: bold;
   color: #333;
   margin-top: 5px;
-  white-space: nowrap; /* Empêche le texte de passer à la ligne */
-  overflow: hidden; /* Coupe le texte s'il est trop long */
-  text-overflow: ellipsis; /* Ajoute "..." si le texte est trop long */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
+  font-size: 12px;
+  color: #f40909;
+  margin-top: 3px;
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .example img {
   width: 130px;

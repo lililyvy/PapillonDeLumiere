@@ -16,7 +16,7 @@ export const useExperienceStore = defineStore('experience', {
               "Découverte des différents métiers/missions/fonctions dans un service biomédical"
             ],
             image: "https://res.cloudinary.com/dwtatn7tk/image/upload/v1741774000/medipole_wdgpe9.jpg",
-            pdf: "/public/rapports/stage_biomedical.pdf" 
+            pdf: "/rapports/stage_biomedical.pdf" 
         },
         {
             id: 2,
@@ -43,7 +43,7 @@ export const useExperienceStore = defineStore('experience', {
               "Observation des techniques de laboratoire de CBC (Culture biologique Cellulaire)"
             ],
             image: "https://res.cloudinary.com/dwtatn7tk/image/upload/v1741773998/genetique_fdwddw.png",
-            pdf: "/public/rapports/stage_genetique.pdf" 
+            pdf: "/rapports/stage_genetique.pdf" 
         },
         {
             id: 4,
